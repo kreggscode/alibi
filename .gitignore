@@ -26,3 +26,6 @@ playwright-report
 *.njsproj
 *.sln
 *.sw?
+
+# Scratch commit messages
+.git-commit-msg
