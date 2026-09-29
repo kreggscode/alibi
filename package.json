@@ -1,0 +1,20 @@
+{
+  "name": "alibi",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A voice murder mystery: question AI suspects out loud, catch the contradiction, name the killer.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^3.2.4"
+  }
+}
