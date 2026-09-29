@@ -1,0 +1,6 @@
+Add @types/node so lint passes without a transitive copy
+
+The transcription test reads an mp3 fixture and process.env. Locally those
+resolved against a hoisted @types/node that npm ci never installs, so CI
+fell over on node:fs, node:url and process while the same command passed
+here. Pin the dependency and name it in types.
